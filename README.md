@@ -15,7 +15,7 @@ intervals = [("42:55", "43:48"), ("01:04:08", "01:04:28")]
 ```
 
 5. Ejecuta el código en la terminal mediante `python clips.py` o en caso de usar la interfaz gráfica `python clips_grafico.py`
-6. ## Personalización
+## Personalización
 
 Puedes ajustar los intervalos según tus necesidades para obtener los clips deseados. Además, puedes modificar la calidad del video ajustando los parámetros en la sección **ydl_opts** del código.
 
