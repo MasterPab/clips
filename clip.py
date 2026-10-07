@@ -29,7 +29,12 @@ def download_clips(url, intervals):
     os.remove(input_video)
 # Para hacer funcionar el código, debes poner en los "intervals" todos los clips que vas a usar en su rango de tiempo. Por ejemplo intervals = [("0:15", "0:30"), ("0:45", "1:00")]
 if __name__ == "__main__":
+<<<<<<< HEAD
     url = "https://www.youtube.com/watch?v=NlJnq6zwhjk"
     intervals = [("5:09", "5:30")]
+=======
+    url = "tuvideoaquí"
+    intervals = [("42:55", "43:48"), ("01:04:08", "01:04:28")]
+>>>>>>> fff4dc1462bad126607180f80902200fcba39bff
 
     download_clips(url, intervals)
